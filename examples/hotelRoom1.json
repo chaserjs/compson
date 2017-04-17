@@ -1,0 +1,46 @@
+{
+  "room": {
+    "size": "420 sq ft",
+    "balcony": true,
+    "view": "pool"
+  },
+  "furniture": {
+    "bed1": {
+      "type": "bed",
+      "size": "queen",
+      "linens": "silk",
+      "mattress": "foam"
+    },
+    "bed2": {
+      "clone": "bed1",
+      "mattress": "innerspring"
+    },
+    "nightstand1": {
+      "type": "nightstand",
+      "drawers": 1,
+      "nextTo": "bed1"
+    },
+    "nightstand2": {
+      "clone": "nightstand1",
+      "nextTo": "bed2"
+    },
+    "armchair1": {
+      "type": "armchair",
+      "color": "red",
+      "material": "leather",
+      "recliner": false,
+      "rocking": false
+    },
+    "armchair2": {
+      "clone": "armchair1",
+      "material": "fabric",
+      "color": "blue"
+    },
+    "cabinet1": {
+      "type": "cabinet",
+      "finish": "oak",
+      "height": "6ft",
+      "drawers": 4
+    }
+  }
+}

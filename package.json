@@ -1,0 +1,30 @@
+{
+  "name": "compson",
+  "version": "0.1.0",
+  "description": "Composite JSON turns json files into modules",
+  "main": "src/compson.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src test examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chaserjs/compson.git"
+  },
+  "keywords": [
+    "compson",
+    "composite",
+    "json",
+    "modules",
+    "clone",
+    "data"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "jest": "^19.0.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}

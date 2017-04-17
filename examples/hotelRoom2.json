@@ -1,0 +1,33 @@
+{
+  "room": {
+    "size": "420 sq ft",
+    "balcony": true,
+    "view": "pool"
+  },
+  "furniture": {
+    "room1.bed1": {
+      "clone": true,
+      "linens": "polyester"
+    },
+    "bed1": {
+      "clone": "room1.bed2",
+      "size": "twin"
+    },
+    "bed2": {
+      "clone": "bed1"
+    },
+    "room1.nightstand1": {
+      "clone": "room1.nightstand1",
+      "nextTo": "room1.bed2",
+      "drawers": 2
+    },
+    "room1.nightstand2": {
+      "clone": "room1.nightstand2",
+      "nextTo": "room1.bed1",
+      "drawers": 1
+    }
+  },
+  "modules": {
+    "room1": "./hotelRoom1.json"
+  }
+}

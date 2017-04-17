@@ -1,0 +1,16 @@
+{
+  "room": {
+    "clone": "room2.room",
+    "view": "ocean"
+  },
+  "furniture": {
+    "/room2\\..*\\.nightstand.*/": {
+      "alarmClock": true,
+      "hidden": false,
+      "clone": true
+    }
+  },
+  "modules": {
+    "room2": "./hotelRoom2.json"
+  }
+}

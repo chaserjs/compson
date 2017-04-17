@@ -1,0 +1,9 @@
+{
+  "room": {
+    "clone": "room2.room",
+    "view": "ocean"
+  },
+  "modules": {
+    "room2": "./hotelRoom2.json"
+  }
+}
