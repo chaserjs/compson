@@ -1,6 +1,6 @@
 {
   "name": "compson",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Composite JSON turns json files into modules",
   "main": "src/compson.js",
   "scripts": {
