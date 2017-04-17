@@ -1,6 +1,9 @@
 CompSON
 =========
 
+[![Build Status](https://travis-ci.org/chaserjs/compson.svg?branch=master)](https://travis-ci.org/chaserjs/compson)
+[![npm version](https://badge.fury.io/js/compson.svg)](https://badge.fury.io/js/compson)
+
 CompSON turns json files into modules.
 
 When creating a new json data file, you can **include** contents of other data files and modify the data objects to fit your needs. You can **clone**, **modify**, **replace**, or **hide** any data object in your files and you can use **regular expressions** to perform group operations.

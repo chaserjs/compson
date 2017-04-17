@@ -4,7 +4,7 @@
   "description": "Composite JSON turns json files into modules",
   "main": "src/compson.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "lint": "eslint src test examples"
   },
   "repository": {

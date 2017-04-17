@@ -1,4 +1,4 @@
-let compson=require("../src/compson.js");
+let compson=require("compson");
 
 /* global test */
 test("clone", function() {
